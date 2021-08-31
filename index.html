@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+
+<div>
+    <img src="Images/logo2.jpg" alt="logo" width="75" height="75">
+</div>
+<div>
+    <h1>Rent a Car</h1>
+</div>
+
+    </header>
+
+    <main>
+   <form action="" id="Myform">
+       <fieldset>
+           <legend>Car Rental</legend>
+           <label for="CustomerName">Customer name</label>
+           <br>
+           <input type="text" name="CustomerName" id="CustomerName" required>
+           <br>
+           <label for="CarModels">Car Models</label>
+           <br>
+           <input list="CarModels">
+           <datalist id="CarModels">
+            <option value="KIA">
+            <option value="BMW">
+            <option value="FORD">
+          </datalist>
+          <br>
+          <input type="submit">
+       </fieldset>
+   </form>
+
+   <table id="mytable">
+    <tr>
+       <th>Order Image</th>
+       <th>Order Details</th>
+    </tr>
+
+ </table>
+
+      <div id="container"></div>
+
+    </main>
+
+    <footer>
+
+
+<h2>Ahmad</h2>
+
+    </footer>
+    <script src="JS/app.js"></script>
+</body>
+</html>
